@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandingPadSetup", "LandingPadSetup.csproj", "{2B0888EB-9E96-4AC7-9596-E5DE1D2C8D92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B0888EB-9E96-4AC7-9596-E5DE1D2C8D92}.Debug|x64.ActiveCfg = Debug|x64
+		{2B0888EB-9E96-4AC7-9596-E5DE1D2C8D92}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4AF9C14-D9C0-4F57-8C77-D6B6784BE488}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿R e a d m e
+-----------
+
+In this file you can include any instructions or other comments you want to have injected onto the 
+top of your final script. You can safely delete this file if you do not want any such comments.
+
+The script will automatically find the following for a group:
+   Connector (There can only be one)
+   Lights
+   Panel (Dedicated to this group)
+
+In the Custom Data for that particular block, write in the following:
+
+[LandingPad]                        <== All blocks that should participate.
+Group=One                           <== All blocks must belong to a group.
+Sequence=1                          <== Lights only.
+
+PanelType=Indicator | Detail        <== Panels only. If group is not defined for the panel, it will become a summary panel.
+
+
+
