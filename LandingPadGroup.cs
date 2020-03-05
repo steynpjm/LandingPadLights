@@ -42,10 +42,10 @@ namespace IngameScript
                         result = "X";
                         break;
                     case ConnectorStatus.NotConnected:
-                        result = "=";
+                        result = "-";
                         break;
                     case ConnectorStatus.AwaitingConnection:
-                        result = "-";
+                        result = "=";
                         break;
                     case ConnectorStatus.Connected:
                         result = "O";
